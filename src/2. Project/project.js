@@ -34,7 +34,7 @@ function Project() {
             and see how I turned this idea into a portfolio-worthy application.
           </p>
           <p className="card-text">
-            Check out the code for building this Calculator on{" "}
+            Check out the code for building this Random Quote Machine on{" "}
             <a
               href="https://github.com/MalieKapDev/random-quote-machine"
               target="_blank"
