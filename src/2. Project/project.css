@@ -41,15 +41,160 @@
   font-weight: 600;
 }
 
+/* Styling for the quote box */
+.quote-box {
+  border-radius: 5px;
+  padding: 40px 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+/* Quote text styling */
+.quote-text {
+  text-align: center;
+  font-weight: 600;
+  font-family: var(--font-heading);
+  color: var(--heading-color);
+  line-height: 1.4;
+  transition: opacity 0.5s ease-in-out;
+}
+
+/* Quote author styling */
+.quote-author {
+  padding-top: 20px;
+  color: var(--content-color);
+  font-family: var(--font-secondary);
+  text-align: right;
+  transition: opacity 0.5s ease-in-out;
+}
+
+/* Buttons container */
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* General button styling */
+.button {
+  height: 38px;
+  border: 1px solid var(--heading-color);
+  border-radius: 5px;
+  color: var(--background-color);
+  background-color: var(--heading-color);
+  font-weight: 500;
+  font-family: var(--font-primary);
+  padding: 8px 18px;
+  cursor: pointer;
+  transition: opacity 0.3s ease-in-out, background-color 0.5s ease-in-out;
+}
+
+.button:hover {
+  opacity: 0.9;
+  color: var(--focus-color);
+}
+
+/* Social media buttons */
+.social-share-button {
+  width: 40px;
+  height: 38px;
+  border: 1px solid var(--heading-color);
+  border-radius: 5px;
+  color: var(--background-color);
+  background-color: var(--heading-color);
+  padding: 5px 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: opacity 0.3s ease-in-out, background-color 0.5s ease-in-out;
+}
+
+.social-share-button:hover {
+  opacity: 0.9;
+  color: var(--focus-color);
+}
+
 /* Screen Adjustments */
 /* Small Screens */
 @media (min-width: 576px) {
+  /* Quote text styling */
+  .quote-text {
+    font-size: var(--text-sm-subtitle);
+  }
+
+  /* Quote author styling */
+  .quote-author {
+    font-size: var(--text-sm-body);
+  }
+
+  /* General button styling */
+  .button {
+    font-size: var(--text-sm-detail);
+  }
+
+  /* Social media buttons */
+  .social-share-button {
+    font-size: var(--text-sm-title);
+  }
+
+  .bi-quote {
+    width: var(--text-sm-display);
+    height: var(--text-sm-display);
+  }
 }
 
 /* Medium Screens */
 @media (min-width: 768px) {
+  /* Quote text styling */
+  .quote-text {
+    font-size: var(--text-md-subtitle);
+  }
+
+  /* Quote author styling */
+  .quote-author {
+    font-size: var(--text-md-body);
+  }
+
+  /* General button styling */
+  .button {
+    font-size: var(--text-md-detail);
+  }
+
+  /* Social media buttons */
+  .social-share-button {
+    font-size: var(--text-md-title);
+  }
+
+  .bi-quote {
+    width: var(--text-md-display);
+    height: var(--text-md-display);
+  }
 }
 
 /* Large Screens */
 @media (min-width: 1024px) {
+  /* Quote text styling */
+  .quote-text {
+    font-size: var(--text-lg-subtitle);
+  }
+
+  /* Quote author styling */
+  .quote-author {
+    font-size: var(--text-lg-body);
+  }
+
+  /* General button styling */
+  .button {
+    font-size: var(--text-lg-detail);
+  }
+
+  /* Social media buttons */
+  .social-share-button {
+    font-size: var(--text-lg-title);
+  }
+
+  .bi-quote {
+    width: var(--text-lg-display);
+    height: var(--text-lg-display);
+  }
 }

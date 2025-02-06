@@ -1,9 +1,13 @@
 import React from "react";
+import ShareButtons from "./shareButtons";
 
-const QuoteButtons = () => {
+const QuoteButtons = ({ newQuote, quote }) => {
   return (
-    <div>
-      <h1>Hello from QuoteButtons</h1>
+    <div className="buttons">
+      <ShareButtons quote={quote} />
+      <button className="button" id="new-quote" onClick={newQuote}>
+        New Quote
+      </button>
     </div>
   );
 };

@@ -3,6 +3,7 @@ import "./otherProjects.css";
 
 import pomodoroTimerScreenshot from "./pomodoroTimerScreenshot.png";
 import calculatorScreenshot from "./calculatorScreenshot.png";
+import randomQuoteMachineScreenshot from "./randomQuoteMachineScreenshot.png";
 
 const projects = [
   {
@@ -89,7 +90,7 @@ const projects = [
     title: "Random Quote Machine",
     description:
       "Built in the React framework it delivers inspiring or thought-provoking quotes with a simple click. Offering users a source of motivation or reflection. Also offers quick links to post the quote to social media.",
-    imgSrc: "...",
+    imgSrc: `${randomQuoteMachineScreenshot}`,
     link: "https://maliekapdev-random-quote-machine.netlify.app/",
     alt: "Random Quote Machine Screenshot",
   },

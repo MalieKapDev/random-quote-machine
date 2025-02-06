@@ -1,9 +1,9 @@
 import React from "react";
 
-const QuoteAuthor = () => {
+const QuoteAuthor = ({ author }) => {
   return (
-    <div>
-      <h1>Hello from QuoteAuthor</h1>
+    <div className="quote-author">
+      - <span>{author}</span>
     </div>
   );
 };
